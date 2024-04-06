@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QDialog, QHBoxLayout, QLineEdit, QPushButton, QTableWidgetItem
+from PyQt6.QtWidgets import QDialog, QHBoxLayout, QLineEdit, QPushButton, QTableWidgetItem, QWidget, QGridLayout, QCheckBox, QLabel
 from VinylTable import VinylTable
 from PyQt6.QtCore import QCoreApplication
 
@@ -18,8 +18,9 @@ class AddDialog(QDialog):
         self.genreTextbox = QLineEdit()
         self.genreTextbox.setPlaceholderText("Genre")
 
-        self.ownedTextbox = QLineEdit()
-        self.ownedTextbox.setPlaceholderText("Owned")
+        self.ownedCBLabel = QLabel("Owned?")
+        self.ownedCB = QCheckBox()
+        self.ownedCB.setChecked(False)
 
         self.addButton = QPushButton()
         self.addButton.setText("Add")
@@ -27,7 +28,8 @@ class AddDialog(QDialog):
         self.qhBoxLayout.addWidget(self.titleTextbox)
         self.qhBoxLayout.addWidget(self.artistTextbox)
         self.qhBoxLayout.addWidget(self.genreTextbox)
-        self.qhBoxLayout.addWidget(self.ownedTextbox)
+        self.qhBoxLayout.addWidget(self.ownedCBLabel)
+        self.qhBoxLayout.addWidget(self.ownedCB)
         self.qhBoxLayout.addWidget(self.addButton)
 
         self.setLayout(self.qhBoxLayout)
@@ -56,11 +58,21 @@ class AddDialog(QDialog):
             2, 
             QTableWidgetItem(self.genreTextbox.text())
         )
-        self.table.setItem(
+
+        ownedCellWidget = QWidget()
+        ownedCellLayout = QGridLayout()
+        ownedCb = QCheckBox()
+        ownedCb.setChecked(self.ownedCB.isChecked())
+        ownedCb.stateChanged.connect(self.table.writeToFile)
+        ownedCellLayout.addWidget(ownedCb)
+        ownedCellWidget.setLayout(ownedCellLayout)
+        self.table.setCellWidget(
             self.table.rowCount() - 1, 
             3, 
-            QTableWidgetItem(self.ownedTextbox.text())
+            ownedCellWidget
         )
+
         self.table.rowAdded()
+        self.table.resizeRowsToContents()
         self.addButton.clicked.disconnect()
         self.close()
