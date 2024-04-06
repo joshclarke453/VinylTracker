@@ -1,1 +1,4 @@
 __pycache__/*
+VinylTracker.spec
+dist/VinylTracker.exe
+build/VinylTracker/*
