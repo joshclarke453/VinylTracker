@@ -258,6 +258,12 @@
         "Owned": true
     },
     {
+        "Title": "Zwielicht",
+        "Artist": "Mental Cruelty",
+        "Genre": "Deathcore",
+        "Owned": true
+    },
+    {
         "Title": "The Black Parade",
         "Artist": "My Chemical Romance",
         "Genre": "Emo",
@@ -489,6 +495,12 @@
         "Title": "Peripheral Vision",
         "Artist": "Turnover",
         "Genre": "Indie Rock",
+        "Owned": true
+    },
+    {
+        "Title": "A Blaze In The Northern Sky",
+        "Artist": "Darkthrone",
+        "Genre": "Black Metal",
         "Owned": true
     }
 ]
