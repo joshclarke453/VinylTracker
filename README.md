@@ -1,5 +1,5 @@
 📀 VinylTracker: Collection Manager
-VinylTracker is a lightweight Python-based desktop application designed to catalog, track, and manage my vinyl record collection.
+* VinylTracker is a lightweight Python-based desktop application designed to catalog, track, and manage my vinyl record collection.
 
 ✨ Features:
 * Inventory Management: Add and edit records from your digital collection.
