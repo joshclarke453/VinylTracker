@@ -1,6 +1,16 @@
-from PyQt6.QtWidgets import QDialog, QHBoxLayout, QLineEdit, QPushButton, QTableWidgetItem, QWidget, QGridLayout, QCheckBox, QLabel
+from PyQt6.QtWidgets import (
+    QDialog,
+    QHBoxLayout,
+    QLineEdit,
+    QPushButton,
+    QTableWidgetItem,
+    QWidget,
+    QGridLayout,
+    QCheckBox,
+    QLabel,
+)
 from VinylTable import VinylTable
-from PyQt6.QtCore import QCoreApplication
+
 
 class AddDialog(QDialog):
     def __init__(self, table: VinylTable):
@@ -44,19 +54,13 @@ class AddDialog(QDialog):
         self.table.itemChanged.disconnect()
         self.table.insertRow(self.table.rowCount())
         self.table.setItem(
-            self.table.rowCount() - 1, 
-            0, 
-            QTableWidgetItem(self.titleTextbox.text())
+            self.table.rowCount() - 1, 0, QTableWidgetItem(self.titleTextbox.text())
         )
         self.table.setItem(
-            self.table.rowCount() - 1, 
-            1, 
-            QTableWidgetItem(self.artistTextbox.text())
+            self.table.rowCount() - 1, 1, QTableWidgetItem(self.artistTextbox.text())
         )
         self.table.setItem(
-            self.table.rowCount() - 1, 
-            2, 
-            QTableWidgetItem(self.genreTextbox.text())
+            self.table.rowCount() - 1, 2, QTableWidgetItem(self.genreTextbox.text())
         )
 
         ownedCellWidget = QWidget()
@@ -66,11 +70,7 @@ class AddDialog(QDialog):
         ownedCb.stateChanged.connect(self.table.writeToFile)
         ownedCellLayout.addWidget(ownedCb)
         ownedCellWidget.setLayout(ownedCellLayout)
-        self.table.setCellWidget(
-            self.table.rowCount() - 1, 
-            3, 
-            ownedCellWidget
-        )
+        self.table.setCellWidget(self.table.rowCount() - 1, 3, ownedCellWidget)
 
         self.table.rowAdded()
         self.table.resizeRowsToContents()

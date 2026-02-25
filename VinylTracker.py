@@ -7,7 +7,7 @@ app = QApplication(sys.argv)
 # Create a Qt widget, which will be our window.
 window = MainWindow()
 window.setWindowTitle("Vinyl Tracker")
-window.show()  
+window.show()
 
 # Start the event loop.
 app.exec()

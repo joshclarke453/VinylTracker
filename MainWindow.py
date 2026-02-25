@@ -4,10 +4,11 @@ from SearchBar import SearchBar
 from AddButton import AddButton
 from VinylTable import VinylTable
 
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        
+
         self.table = VinylTable()
         self.qvbLayout = QVBoxLayout()
         self.topBarLayout = QHBoxLayout()
@@ -19,7 +20,7 @@ class MainWindow(QMainWindow):
 
         self.qvbLayout.addLayout(self.topBarLayout)
         self.qvbLayout.addWidget(self.table)
-        
+
         self.widget = QWidget()
         self.widget.setLayout(self.qvbLayout)
         self.setCentralWidget(self.widget)
