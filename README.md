@@ -8,4 +8,4 @@
 * Local Storage: All data is saved locally (JSON).
 
 🛠️ Tech Stack
-* Python & PyQt6
+* Python & PyQt6.
