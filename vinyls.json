@@ -1,12 +1,24 @@
 [
     {
+        "Title": "New World Depression",
+        "Artist": "$uicideBoy$",
+        "Genre": "Rap",
+        "Owned": true
+    },
+    {
+        "Title": "Bad Vibrations",
+        "Artist": "A Day To Remember",
+        "Genre": "Metalcore",
+        "Owned": true
+    },
+    {
         "Title": "What Separates Me From You",
         "Artist": "A Day To Remember",
         "Genre": "Metalcore",
         "Owned": true
     },
     {
-        "Title": "Bad Vibrations",
+        "Title": "Homesick",
         "Artist": "A Day To Remember",
         "Genre": "Metalcore",
         "Owned": true
@@ -48,7 +60,7 @@
         "Owned": true
     },
     {
-        "Title": "Thanks But No Thanks",
+        "Title": "Change Of Plans",
         "Artist": "Can't Swim",
         "Genre": "Punk Rock",
         "Owned": true
@@ -60,31 +72,31 @@
         "Owned": true
     },
     {
-        "Title": "This Too Wont Pass",
-        "Artist": "Can't Swim",
-        "Genre": "Punk Rock",
-        "Owned": true
-    },
-    {
-        "Title": "Change Of Plans",
-        "Artist": "Can't Swim",
-        "Genre": "Punk Rock",
-        "Owned": true
-    },
-    {
         "Title": "Fail You Again",
         "Artist": "Can't Swim",
         "Genre": "Punk Rock",
         "Owned": true
     },
     {
-        "Title": "As You Please",
-        "Artist": "Citizen",
-        "Genre": "Indie Rock",
+        "Title": "Thanks But No Thanks",
+        "Artist": "Can't Swim",
+        "Genre": "Punk Rock",
         "Owned": true
     },
     {
-        "Title": "Youth",
+        "Title": "This Too Wont Pass",
+        "Artist": "Can't Swim",
+        "Genre": "Punk Rock",
+        "Owned": true
+    },
+    {
+        "Title": "Terrasite",
+        "Artist": "Cattle Decapitation",
+        "Genre": "Death Metal",
+        "Owned": true
+    },
+    {
+        "Title": "As You Please",
         "Artist": "Citizen",
         "Genre": "Indie Rock",
         "Owned": true
@@ -96,7 +108,19 @@
         "Owned": true
     },
     {
-        "Title": "The Sound Of Perseverance",
+        "Title": "Youth",
+        "Artist": "Citizen",
+        "Genre": "Indie Rock",
+        "Owned": true
+    },
+    {
+        "Title": "A Blaze In The Northern Sky",
+        "Artist": "Darkthrone",
+        "Genre": "Black Metal",
+        "Owned": true
+    },
+    {
+        "Title": "Leprosy",
         "Artist": "Death",
         "Genre": "Death Metal",
         "Owned": true
@@ -108,7 +132,7 @@
         "Owned": true
     },
     {
-        "Title": "Leprosy",
+        "Title": "The Sound Of Perseverance",
         "Artist": "Death",
         "Genre": "Death Metal",
         "Owned": true
@@ -126,6 +150,12 @@
         "Owned": true
     },
     {
+        "Title": "Oh, What The Future Holds",
+        "Artist": "Fit For An Autopsy",
+        "Genre": "Deathcore",
+        "Owned": true
+    },
+    {
         "Title": "Girl Of My Dreams",
         "Artist": "Fletcher",
         "Genre": "Pop",
@@ -135,6 +165,12 @@
         "Title": "The Albatross",
         "Artist": "Foxing",
         "Genre": "Emo",
+        "Owned": true
+    },
+    {
+        "Title": "Demo Tapes",
+        "Artist": "Gas Chamber",
+        "Genre": "Powerviolence",
         "Owned": true
     },
     {
@@ -153,6 +189,18 @@
         "Title": "Manic",
         "Artist": "Halsey",
         "Genre": "Pop",
+        "Owned": true
+    },
+    {
+        "Title": "You'll Be Fine",
+        "Artist": "Hot Mulligan",
+        "Genre": "Pop Punk",
+        "Owned": true
+    },
+    {
+        "Title": "Why Would I Watch",
+        "Artist": "Hot Mulligan",
+        "Genre": "Pop Punk",
         "Owned": true
     },
     {
@@ -180,15 +228,21 @@
         "Owned": true
     },
     {
-        "Title": "A Tear In The Fabric Of Life",
+        "Title": "A Different Shade Of Blue",
         "Artist": "Knocked Loose",
-        "Genre": "Hardcore Punk",
+        "Genre": "Metalcore",
         "Owned": true
     },
     {
-        "Title": "A Different Shade Of Blue",
+        "Title": "A Tear In The Fabric Of Life",
         "Artist": "Knocked Loose",
-        "Genre": "Hardcore Punk",
+        "Genre": "Metalcore",
+        "Owned": true
+    },
+    {
+        "Title": "You Won't Go Before You're Supposed To",
+        "Artist": "Knocked Loose",
+        "Genre": "Metalcore",
         "Owned": true
     },
     {
@@ -216,19 +270,19 @@
         "Owned": true
     },
     {
+        "Title": "I Feel The Everblack Festering Within Me",
+        "Artist": "Lorna Shore",
+        "Genre": "Deathcore",
+        "Owned": true
+    },
+    {
         "Title": "Tickets To My Downfall",
         "Artist": "Machine Gun Kelly",
         "Genre": "Rap",
         "Owned": true
     },
     {
-        "Title": "Hope",
-        "Artist": "Manchester Orchestra",
-        "Genre": "Indie Rock",
-        "Owned": true
-    },
-    {
-        "Title": "The Million Masks Of God",
+        "Title": "A Black Mile To The Surface",
         "Artist": "Manchester Orchestra",
         "Genre": "Indie Rock",
         "Owned": true
@@ -240,7 +294,7 @@
         "Owned": true
     },
     {
-        "Title": "A Black Mile To The Surface",
+        "Title": "Hope",
         "Artist": "Manchester Orchestra",
         "Genre": "Indie Rock",
         "Owned": true
@@ -258,7 +312,19 @@
         "Owned": true
     },
     {
+        "Title": "The Million Masks Of God",
+        "Artist": "Manchester Orchestra",
+        "Genre": "Indie Rock",
+        "Owned": true
+    },
+    {
         "Title": "Zwielicht",
+        "Artist": "Mental Cruelty",
+        "Genre": "Deathcore",
+        "Owned": true
+    },
+    {
+        "Title": "A Hill To Die Upon",
         "Artist": "Mental Cruelty",
         "Genre": "Deathcore",
         "Owned": true
@@ -318,15 +384,21 @@
         "Owned": true
     },
     {
+        "Title": "Siren Song Of The Counter Culture",
+        "Artist": "Rise Against",
+        "Genre": "Punk Rock",
+        "Owned": true
+    },
+    {
         "Title": "The Sufferer And The Witness",
         "Artist": "Rise Against",
         "Genre": "Punk Rock",
         "Owned": true
     },
     {
-        "Title": "Siren Song Of The Counter Culture",
-        "Artist": "Rise Against",
-        "Genre": "Punk Rock",
+        "Title": "Short n' Sweet",
+        "Artist": "Sabrina Carpenter",
+        "Genre": "Pop",
         "Owned": true
     },
     {
@@ -360,13 +432,25 @@
         "Owned": true
     },
     {
+        "Title": "Schmaltz",
+        "Artist": "Spanish Love Songs",
+        "Genre": "Pop Punk",
+        "Owned": true
+    },
+    {
+        "Title": "Eternal Blue",
+        "Artist": "Spiritbox",
+        "Genre": "Metalcore",
+        "Owned": true
+    },
+    {
         "Title": "The Fear Of Fear",
         "Artist": "Spiritbox",
         "Genre": "Metalcore",
         "Owned": true
     },
     {
-        "Title": "Eternal Blue",
+        "Title": "Tsunami Sea",
         "Artist": "Spiritbox",
         "Genre": "Metalcore",
         "Owned": true
@@ -390,7 +474,7 @@
         "Owned": true
     },
     {
-        "Title": "The 59' Sound",
+        "Title": "History Books",
         "Artist": "The Gaslight Anthem",
         "Genre": "Heartland Rock",
         "Owned": true
@@ -402,13 +486,25 @@
         "Owned": true
     },
     {
-        "Title": "Sam's Town",
+        "Title": "The 59' Sound",
+        "Artist": "The Gaslight Anthem",
+        "Genre": "Heartland Rock",
+        "Owned": true
+    },
+    {
+        "Title": "Home, Like No Place Is There",
+        "Artist": "The Hotelier",
+        "Genre": "Indie Rock",
+        "Owned": true
+    },
+    {
+        "Title": "Battle Born",
         "Artist": "The Killers",
         "Genre": "Heartland Rock",
         "Owned": true
     },
     {
-        "Title": "Battle Born",
+        "Title": "Sam's Town",
         "Artist": "The Killers",
         "Genre": "Heartland Rock",
         "Owned": true
@@ -426,7 +522,7 @@
         "Owned": true
     },
     {
-        "Title": "Under Soil And Dirt",
+        "Title": "Songs Of",
         "Artist": "The Story So Far",
         "Genre": "Pop Punk",
         "Owned": true
@@ -438,13 +534,19 @@
         "Owned": true
     },
     {
+        "Title": "Under Soil And Dirt",
+        "Artist": "The Story So Far",
+        "Genre": "Pop Punk",
+        "Owned": true
+    },
+    {
         "Title": "What You Don't See",
         "Artist": "The Story So Far",
         "Genre": "Pop Punk",
         "Owned": true
     },
     {
-        "Title": "Songs Of",
+        "Title": "I Want To Disappear",
         "Artist": "The Story So Far",
         "Genre": "Pop Punk",
         "Owned": true
@@ -462,7 +564,7 @@
         "Owned": true
     },
     {
-        "Title": "Parting The Sea Between Brightness And Me",
+        "Title": "Is Survived By",
         "Artist": "Touche Amore",
         "Genre": "Post-Hardcore",
         "Owned": true
@@ -474,7 +576,7 @@
         "Owned": true
     },
     {
-        "Title": "Is Survived By",
+        "Title": "Parting The Sea Between Brightness And Me",
         "Artist": "Touche Amore",
         "Genre": "Post-Hardcore",
         "Owned": true
@@ -486,7 +588,13 @@
         "Owned": true
     },
     {
-        "Title": "American Dream",
+        "Title": "Spiral In A Straight Line",
+        "Artist": "Touche Amore",
+        "Genre": "Post-Hardcore",
+        "Owned": true
+    },
+    {
+        "Title": "The American Dream",
         "Artist": "Trophy Eyes",
         "Genre": "Pop Punk",
         "Owned": true
@@ -498,9 +606,9 @@
         "Owned": true
     },
     {
-        "Title": "A Blaze In The Northern Sky",
-        "Artist": "Darkthrone",
-        "Genre": "Black Metal",
+        "Title": "A Brief Intermission In The Flattening Of Time",
+        "Artist": "Spanish Love Songs",
+        "Genre": "Pop Punk",
         "Owned": true
     }
 ]
