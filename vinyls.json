@@ -120,6 +120,12 @@
         "Owned": true
     },
     {
+        "Title": "Roads To Judah",
+        "Artist": "Deafheaven",
+        "Genre": "Blackgaze",
+        "Owned": true
+    },
+    {
         "Title": "Leprosy",
         "Artist": "Death",
         "Genre": "Death Metal",
@@ -438,6 +444,12 @@
         "Owned": true
     },
     {
+        "Title": "A Brief Intermission In The Flattening Of Time",
+        "Artist": "Spanish Love Songs",
+        "Genre": "Pop Punk",
+        "Owned": true
+    },
+    {
         "Title": "Eternal Blue",
         "Artist": "Spiritbox",
         "Genre": "Metalcore",
@@ -606,9 +618,9 @@
         "Owned": true
     },
     {
-        "Title": "A Brief Intermission In The Flattening Of Time",
-        "Artist": "Spanish Love Songs",
-        "Genre": "Pop Punk",
+        "Title": "Sunbather",
+        "Artist": "Deafheaven",
+        "Genre": "Blackgaze",
         "Owned": true
     }
 ]
